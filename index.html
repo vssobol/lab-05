@@ -1,52 +1,23 @@
-<!-- Note: you may use this starter code, but it is not a requirement -->
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>The Gallery of Horns</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/reset.css" type="text/css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Bungee+Outline%7CPermanent+Marker&display=swap" rel="stylesheet">
-    <link href="css/base.css" type="text/css" rel="stylesheet">
-    <link href="css/layout.css" type="text/css" rel="stylesheet">
-    <link href="css/modules.css" type="text/css" rel="stylesheet">
-    <script id="template" type="text/x-handlebars-template">
-      <section class = "{{keyword}}">
-      <h2>{{title}}</h2>
-      <img src="{{image_url}}" alt="{{description}}" title="{{title}}">
-      <p>{{description}}
-        <br> Amount of Horns: {{horns}}
-      </p>
-      </section>
-    </script>
-  </head>
-  <body>
-    <header>
-      <h1>The Gallery of Horns</h1>
-      <select id = "sortByForm"> <label>Sort by:</label>
-        <option value="default">Sort by:</option>
-          <option value="byTitle">Title</option>
-          <option value="byHorns">Number of horns</option>
-      </select>
-      <select id = "keywordForm">
-        <option value="default">Filter by Keyword</option>
-      </select> 
-      <nav>
-        <ul>
-          <li><button class = "one" value="page1Button"> Page 1</button></li>
-          <li><button class = "two" value="page2Button"> Page 2</button></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <article id="page1"></article>
-      <article id="page2"></article>
-    </main>
-    <footer>
-      &copy; 2019 Code Fellows
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.js"></script>
-    <script src="js/app.js"></script>
-  </body>
+    <head>
+        <title>Responsive Demo</title>
+        <link href="css/reset.css" type="text/css" rel="stylesheet">
+        <link href="css/base.css" type="text/css" rel="stylesheet">
+        <link href="css/layout.css" type="text/css" rel="stylesheet">
+        <link href="css/module.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+            <section id="a">a</section>
+            <section id="b">b</section>
+            <section id="c">c</section>
+            <section id="d">d</section>
+            <section id="e">e</section>
+            <section id="f">f</section>
+            <section id="g">g</section>
+            <section id="h">h</section>
+            <section id="i">i</section>
+        </main>
+    </body>
 </html>

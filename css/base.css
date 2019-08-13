@@ -1,9 +1,10 @@
 
-/* https://www.color-hex.com/color-palette/59372 */
-
 *{
-    background-color: #dcf98c;
-    font-family: sans-serif;
-    text-align: center;
-    margin: 1em auto;
+    background: silver;
 }
+
+main{
+    margin: 34px auto;
+}
+
+
