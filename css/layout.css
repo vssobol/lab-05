@@ -1,0 +1,31 @@
+
+article{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+section{
+    background-color: #fff1b8;
+    border: thick double #2ac7a4;
+    border-radius: 1em;
+    height: 500px;
+    width: 400px;
+    margin: 2em;
+    overflow-y: auto;
+    transition-duration: .5s;
+}
+
+h1{
+    color: #2ac7a4;
+    font-family: 'Bungee Outline', cursive;
+    letter-spacing: .1em;
+    margin-top: 1em;
+    margin-bottom: .5em;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+footer{
+    clear: both;
+}

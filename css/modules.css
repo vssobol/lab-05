@@ -1,0 +1,72 @@
+
+select{
+    cursor: pointer;
+    border-radius: .5em;
+    border: medium solid #2ac7a4;
+    color: #1d9279;
+    background-color: #fff1b8;
+    font-size: 1em;
+    text-transform: capitalize;
+}
+
+ul{
+    margin: 0 8em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+button{
+    cursor: pointer;
+    border-radius: 1em;
+    border: thick double #2ac7a4;
+    background: #fff1b8;
+    color: #1d9279;
+    padding: .5em 4em;
+}
+button[value = page1Button]{
+    background-color:white;  
+}
+
+h2{
+    font-family: 'Permanent Marker', cursive;
+    background-color: #fff1b8;
+    letter-spacing: .35em;
+    color: #2ac7a4;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: .5em 0;
+}
+
+img{
+    background-color: #eee;
+    border-radius: 3em;
+    width: 300px;
+    padding: 0 1.5em;
+    transition-duration: .5s;
+}
+
+p{
+    background-color: #fff1b8;
+    color: #65cca0;
+    font-weight: bold;
+    letter-spacing: .1em;
+    padding: .75em;
+}
+
+section:hover{
+    box-shadow: 0 0 1em #2ac7a4;
+    
+}
+
+img:hover{
+    box-shadow: 0 0 1em black;
+}
+
+@media(max-width:595px){
+    ul{
+        margin: 0 auto;
+        flex-direction: column;
+    }
+}
